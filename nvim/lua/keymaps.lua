@@ -64,3 +64,6 @@ keymap("n", "<leader>e", "<cmd>Lexplore<cr>", { desc = "toggle netrw window" })
 
 -- buffers
 keymap("n", "<leader>fb", "<cmd>buffers<cr>:buffer<space>", { desc = "find buffers" })
+
+-- delete buffers
+keymap("n", "<leader>db", "<cmd>buffers<cr>:bdelete<space>", { desc = "find buffers" })

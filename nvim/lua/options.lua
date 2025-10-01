@@ -155,6 +155,9 @@ vim.g.netrw_winsize = 20
 vim.g.netrw_liststyle = 3
 vim.g.netrw_banner = 0
 
+-- turn of regex syntax highlight and use tree-sitter instead
+vim.o.syntax = "off"
+
 -- setup vim diagnostics
 vim.diagnostic.config({
   signs = { priority = 9999 },
